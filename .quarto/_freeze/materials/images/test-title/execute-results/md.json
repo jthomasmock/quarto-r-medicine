@@ -1,0 +1,14 @@
+{
+  "hash": "e7b1dc8546127b34219a853de7d0122b",
+  "result": {
+    "markdown": "---\nauthor: \"Smart Analyst\"\nformat: gfm\n---\n\n::: {.cell}\n\n```{.r .cell-code}\n1+1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n---\ntitle: \"This is a later title\"\ndate: !expr Sys.date()\n---\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "875e70dbb9c768e7c79e71dcf13139eb",
+  "result": {
+    "markdown": "---\nformat: html\nengine: knitr\n---\n\n```{ojs}\nviewof temp = Inputs.range([0, 100], {step: 1, value: 34, label: htl.html`Temp &#x2103;`})\n```\n\n\nConverting temperature from &#x2103; to &#x2109; <br>  \nCelsius = ${d3.format(\".0f\")(temp)}&#x2103; and Fahrenheit = ${d3.format(\".1f\")(temp * 9/5 + 32)}&#x2109;.\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
