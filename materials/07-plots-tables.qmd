@@ -12,7 +12,7 @@ format:
 editor: source
 ---
 
-# 07 - Plots, Graphics, and tables {background-color="#4f6952" background-image="images/outdoor-patio.jpg" background-size="cover"}
+# 03 - Plots, Graphics, and tables {background-color="#4f6952" background-image="images/outdoor-patio.jpg" background-size="cover"}
 
 ```{r setup}
 #| include: false
