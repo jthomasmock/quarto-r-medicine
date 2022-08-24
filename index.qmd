@@ -60,6 +60,8 @@ online resources.
 |:------------------------------------------------------|
 | [Intro to Quarto](materials/01-intro-quarto.html) |
 | [Authoring Quarto](materials/02-authoring.html)  |
+| [Plots and Tables](materials/07-plots-tables.html)  |
+| [Static Documents](materials/04-static-documents.html)  |
 
 ## Instructor
 

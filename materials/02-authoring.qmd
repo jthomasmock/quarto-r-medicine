@@ -5,7 +5,7 @@ format:
     width: 1600
     height: 900
     logo: "https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png"
-    footer: "[jthomasmock.github.io/quarto-2hr-webinar](https://jthomasmock.github.io/quarto-2hr-webinar/)"
+    footer: "[jthomasmock.github.io/quarto-r-medicine](https://jthomasmock.github.io/quarto-r-medicine/)"
     css: ["theme/theme.css"]
     theme: simple
 editor: source
@@ -218,7 +218,7 @@ quarto_render("document.qmd", output_format = "pdf")
 :::
 # `r fontawesome::fa("laptop-code", "white")` Our Turn {background-color="#447099" transition="slide-in"}
 
-- Open RStudio and `materials/workshop/visual-editor.qmd`
+- Open RStudio and `quarto-workshop/03-computation/visual-editor.qmd`
 - Compare behavior of rendering from RStudio > Render, using the CLI with `quarto render`, and in R console via `quarto::quarto_render()`
 
 ## Quarto linting
@@ -429,9 +429,9 @@ Here is something under construction
 
 # `r fontawesome::fa("laptop-code", "white")` Our turn {background-color="#447099" transition="slide-in"}
 
--   Open `materials/workshop/02-authoring/callout-boxes.qmd`
+-   Open `quarto-workshop/02-authoring/callout-boxes.qmd`
 -   Try changing the types of callouts/remove them from code boxes and then render
--   Open `materials/workshop/02-authoring/callout-pdf.qmd` and render it as well
+-   Open `quarto-workshop/02-authoring/callout-pdf.qmd` and render it as well
 
 ## Tabsets
 
@@ -838,7 +838,7 @@ Note that the YAML for Quarto:
 
 # `r fontawesome::fa("laptop-code", "white")` Our turn {background-color="#447099" transition="slide-in"}
 
-- Open `materials/workshop/04-static/old-rmarkdown.rmd`
+- Open `quarto-workshop/04-static/old-rmarkdown.rmd`
 - Render via Quarto CLI
 
 ## 
@@ -970,7 +970,7 @@ format:
 
 # `r fontawesome::fa("laptop-code", "white")` Our turn {background-color="#447099" transition="slide-in"}
 
-- Open `materials/workshop/04-static/bootswatch-themed.qmd` and try out some themes!  
+- Open `quarto-workshop/04-static/bootswatch-themed.qmd` and try out some themes!  
 - 25 bootswatch themes  
   - <https://quarto.org/docs/output-formats/html-themes.html>  
   - <https://quarto.org/docs/output-formats/html-themes-more.html>  

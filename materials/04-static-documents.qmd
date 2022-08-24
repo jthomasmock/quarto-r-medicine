@@ -3,10 +3,10 @@ format:
   revealjs:
     self-contained: true
     slide-number: c/t
-    width: 1920
-    height: 1080
+    width: 1600
+    height: 900
     logo: "https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png"
-    footer: "[Get started with Quarto](https://rstudio-conf-2022.github.io/get-started-quarto/)"
+    footer: "[jthomasmock.github.io/quarto-r-medicine/](https://jthomasmock.github.io/quarto-r-medicine/)"
     css: ["theme/theme.css"]
     theme: simple
     echo: true
@@ -15,32 +15,6 @@ editor: source
 
 # 04 - Static Quarto Documents {background-image="images/write-something.jpg" background-size="cover" background-color="black" style="font-size: 90px;"}
 
-```{r}
-#| echo: false
-library(countdown)
-countdown_timer <- function(
-    minutes = 1, 
-    play_sound = TRUE, 
-    font_size = "2em", 
-    ...
-) {
-  countdown(
-    minutes = minutes,
-    # Fanfare when it's over
-    play_sound = play_sound,
-    # Set timer theme to match solarized colors
-    color_border              = "#404041",
-    color_text                = "white",
-    color_background = "#447099",
-    color_running_background  = "#72994E",
-    color_running_text        = "white",
-    color_finished_background = "#EE6331",
-    color_finished_text       = "white",
-    font_size = font_size,
-    ...
-  )
-}
-```
 
 ## HTML Workhorse
 
@@ -94,13 +68,8 @@ format:
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
-- Open `materials/workshop/04-static/old-rmarkdown.rmd`
+- Open `quarto-workshop/04-static/old-rmarkdown.rmd`
 - Render via Quarto CLI
-
-```{R}
-#| echo: false
-countdown_timer(2)
-```
 
 ## Static documents
 
@@ -324,15 +293,10 @@ format:
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
-- Open `materials/workshop/04-static/penguin-report.qmd`
+- Open `quarto-workshop/04-static/penguin-report.qmd`
 - Explore the document as a concept of literate programming or a "lab notebook"
 - Change the code to all fold, render
 - Change the code to source and toggle
-
-```{R}
-#| echo: false
-countdown_timer(4)
-```
 
 # Code appearance {background-color="#4f6952"}
 
@@ -439,15 +403,10 @@ format:
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
-- Open `materials/workshop/04-static/bootswatch-themed.qmd` and try out some themes!
+- Open `quarto-workshop/04-static/bootswatch-themed.qmd` and try out some themes!
 - 25 bootswatch themes
 - https://quarto.org/docs/output-formats/html-themes.html
 - https://quarto.org/docs/output-formats/html-themes-more.html
-
-```{R}
-#| echo: false
-countdown_timer(2)
-```
 
 ## CSS
 
@@ -610,10 +569,5 @@ TIP!
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
-- Open `materials/workshop/01-intro/history.qmd`
+- Open `quarto-workshop/01-intro/history.qmd`
 - Render as HTML and then render as PDF
-
-```{R}
-#| echo: false
-countdown_timer(3)
-```

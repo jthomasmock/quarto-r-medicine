@@ -32,7 +32,7 @@ website:
       - href: "https://quarto.org/"
         text: "Quarto Docs"
       - icon: github
-        href:  https://github.com/jthomasmock/quarto-2hr-webinar
+        href:  https://github.com/jthomasmock/quarto-r-medicine
       - icon: twitter
         href: https://twitter.com/quarto_pub
   sidebar: 

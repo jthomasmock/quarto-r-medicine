@@ -6,7 +6,7 @@ format:
     width: 1600
     height: 900
     logo: "https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png"
-    footer: "[Get started with Quarto](https://rstudio-conf-2022.github.io/get-started-quarto/)"
+    footer: "[jthomasmock.github.io/quarto-r-medicine/](https://jthomasmock.github.io/quarto-r-medicine/)"
     css: ["theme/theme.css"]
     theme: simple
     echo: true

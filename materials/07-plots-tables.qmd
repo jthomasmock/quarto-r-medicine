@@ -5,7 +5,7 @@ format:
     width: 1600
     height: 900
     logo: "https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png"
-    footer: "[Get started with Quarto](https://rstudio-conf-2022.github.io/get-started-quarto/)"
+    footer: "[jthomasmock.github.io/quarto-r-medicine/](https://jthomasmock.github.io/quarto-r-medicine/)"
     css: ["theme/theme.css"]
     theme: simple
     echo: true
@@ -87,7 +87,7 @@ Elephant
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
--   Open `materials/workshop/07-static/figure-layout`
+-   Open `quarto-workshop/07-static/figure-layout`
 -   Swap between row and col layout
 
 ## Custom Layouts
@@ -189,7 +189,7 @@ Row: 25
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
--   Open `materials/workshop/07-visuals/figure-layout2.qmd`
+-   Open `quarto-workshop/07-visuals/figure-layout2.qmd`
 
 ## Figure layout
 
@@ -278,7 +278,7 @@ mtcars |>
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
--   Open `materials/workshop/07-visuals/plot-layout.qmd`
+-   Open `quarto-workshop/07-visuals/plot-layout.qmd`
 -   Explore, try it out and render
 
 ## Block layout, arbitrary content
@@ -404,7 +404,7 @@ Margin/aside figure
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
--   Open `materials/workshop/07-visuals/plots.qmd`
+-   Open `quarto-workshop/07-visuals/plots.qmd`
 -   Try modifying the layout with `::: {.column-???}` syntax
 
 ## `ggplot2`
@@ -792,6 +792,6 @@ minimal_table <- gt(party_df) %>%
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
--   Open `materials/workshop/07-static/gt-summary.qmd`
--   Open `materials/workshop/07-static/stat-html.qmd`
+-   Open `quarto-workshop/07-static/gt-summary.qmd`
+-   Open `quarto-workshop/07-static/stat-html.qmd`
 -   Explore and render

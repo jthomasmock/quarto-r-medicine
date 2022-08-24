@@ -5,7 +5,7 @@ format:
     width: 1600
     height: 900
     logo: "https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png"
-    footer: "[Get started with Quarto](https://rstudio-conf-2022.github.io/get-started-quarto/)"
+    footer: "[jthomasmock.github.io/quarto-r-medicine/](https://jthomasmock.github.io/quarto-r-medicine/)"
     css: ["theme/theme.css"]
     theme: simple
     echo: true
@@ -85,7 +85,7 @@ countdown_timer <- function(
     
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
--   Open `materials/workshop/05-presentations/revealjs-penguins.qmd`
+-   Open `quarto-workshop/05-presentations/revealjs-penguins.qmd`
 -   Explore the code
 -   Add a new slide with a level 2 header and some text
 -   Render it!
@@ -425,7 +425,7 @@ Appears second
     
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
-- Open `materials/workshop/05-presentation/fragments.qmd`
+- Open `quarto-workshop/05-presentation/fragments.qmd`
 - Make the portions appear in order: top -> bottom and left -> right
 
 ## Column layout

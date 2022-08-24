@@ -3,10 +3,10 @@ format:
   revealjs:
     scrollable: false
     slide-number: true
-    width: 1920
-    height: 1080
+    width: 1600
+    height: 900
     logo: "https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png"
-    footer: "[Get started with Quarto](https://rstudio-conf-2022.github.io/get-started-quarto/)"
+    footer: "[jthomasmock.github.io/quarto-r-medicine/](https://jthomasmock.github.io/quarto-r-medicine/)"
     css: ["theme/theme.css"]
     theme: simple
     echo: true
@@ -17,32 +17,6 @@ editor: source
 
 [03 - Code and Editors]{style="color: white; font-size: 250px;"}
 
-```{r}
-#| echo: false
-library(countdown)
-countdown_timer <- function(
-    minutes = 1, 
-    play_sound = TRUE, 
-    font_size = "2em", 
-    ...
-) {
-  countdown(
-    minutes = minutes,
-    # Fanfare when it's over
-    play_sound = play_sound,
-    # Set timer theme to match solarized colors
-    color_border              = "#404041",
-    color_text                = "white",
-    color_background = "#447099",
-    color_running_background  = "#72994E",
-    color_running_text        = "white",
-    color_finished_background = "#EE6331",
-    color_finished_text       = "white",
-    font_size = font_size,
-    ...
-  )
-}
-```
 
 # {background-color="#6a9c42"}
 
@@ -289,17 +263,12 @@ Or use the Command Palette: <kbd>`Cmd + Shift + P`</kbd>/<kbd>`Ctrl + Shift + P`
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
-- Open `materials/workshop/03-computation/penguin-analysis.qmd`
+- Open `quarto-workshop/03-computation/penguin-analysis.qmd`
 - Insert three total code chunks with the shortcut <kbd>`Ctrl + Alt + I`</kbd>
   - Chunk 1: load `tidyverse` and `palmerpenguins` R packages and print the `penguins` dataset with `glimpse()`
   - Chunk 2: Create a summary by sex/species of the average and median body weight and bill length
   - Chunk 3: Create a plot of body mass (x) by bill length (y)
   - Render it!
-  
-```{R}
-#| echo: false
-countdown_timer(2)
-```
 
 ## Inline code
 
@@ -376,15 +345,11 @@ The radius of the circle is $radius.
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
-- Open `materials/workshop/03-authoring/inline-code.qmd`
+- Open `quarto-workshop/03-authoring/inline-code.qmd`
 - Look through the source code, and then render it
 - Check out the appearance and building up of inline code -> inline output
 - Try to add your own new calculations for inline reporting
 
-```{R}
-#| echo: false
-countdown_timer(4)
-```
 
 ## Code chunks options
 
@@ -579,14 +544,9 @@ List of 2
 
 # `r fontawesome::fa("laptop-code", "white")` Our Turn {background-color="#447099" transition="slide-in"}
 
-- Open RStudio and `materials/workshop/broken-notebook`
+- Open RStudio and `quarto-workshop/03-computations/broken-notebook`
 - Try to render it, see the errors
 - Fix the errors by finding their named chunks and then render again!
-
-```{R}
-#| echo: false
-countdown_timer(3)
-```
 
 
 ## Chunk names, good and bad
@@ -769,26 +729,16 @@ You can use tab-completion inside `knitr` chunk options for RMarkdown style or Q
 - Open `auto-complete.qmd`
 - Follow instructions in the document
 
-```{R}
-#| echo: false
-countdown_timer(2)
-```
-
 ## RStudio Visual Editor
 
 ![](https://quarto.org/docs/visual-editor/images/visual-editing.png)
 
 # `r fontawesome::fa("laptop-code", "white")` Your Turn {background-color="#447099" transition="slide-in"}
 
-- Open `materials/workshop/03-authoring/visual-editor.qmd`
+- Open `quarto-workshop/03-authoring/visual-editor.qmd`
 - Explore the UI elements and visual editor mode
 - Turn Visual Editor mode on/off and explore the sections
 - Render the document and compare the viewer to Visual Mode!
-
-```{R}
-#| echo: false
-countdown_timer(4)
-```
 
 ## VS Code
 
