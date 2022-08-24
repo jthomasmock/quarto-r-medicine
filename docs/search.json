@@ -949,7 +949,7 @@
     "href": "materials/04-static-documents.html#table-of-contents-and-section",
     "title": "Get Started with Quarto",
     "section": "Table of Contents and Section",
-    "text": "Table of Contents and Section"
+    "text": "Table of Contents and Section\nhttps://jthomasmock.github.io/quarto-r-medicine/"
   },
   {
     "objectID": "materials/04-static-documents.html#tabsets",
@@ -1145,7 +1145,7 @@
     "href": "materials/04-static-documents.html#sass-variables-quarto",
     "title": "Get Started with Quarto",
     "section": "SASS variables + Quarto",
-    "text": "SASS variables + Quarto"
+    "text": "SASS variables + Quarto\nhttps://quarto.org/docs/output-formats/html-themes.html#sass-variables"
   },
   {
     "objectID": "materials/04-static-documents.html#format-pdf",
@@ -2217,5 +2217,33 @@
     "title": "Get Started with Quarto",
     "section": "",
     "text": "Excited\n\n\n\n\n\n\n\nSleeping\n\n\n\n\n\n\n\n\n\nStill Excited\n\n\n\n\n\n\n\nStill sleeping\n\n\n\n\n\n\nTwo states of Howard, twice"
+  },
+  {
+    "objectID": "materials/04-static-documents.html#quarto-crafted-with-love-and-care",
+    "href": "materials/04-static-documents.html#quarto-crafted-with-love-and-care",
+    "title": "Get Started with Quarto",
+    "section": "Quarto, crafted with love and care",
+    "text": "Quarto, crafted with love and care\n\nDevelopment of Quarto is sponsored by RStudio, PBC. The same core team works on both Quarto and R Markdown:\n\n\nCarlos Scheidegger (@cscheid)\nCharles Teague (@dragonstyle)\nChristophe Dervieux (@cderv)\nJ.J. Allaire (@jjallaire)\nYihui Xie (@yihui)\n\nHere is the full contributors list. Quarto is open source and we welcome contributions in our github repository as well! https://github.com/quarto-dev/quarto-cli."
+  },
+  {
+    "objectID": "materials/04-static-documents.html#quarto-1",
+    "href": "materials/04-static-documents.html#quarto-1",
+    "title": "Get Started with Quarto",
+    "section": "Quarto",
+    "text": "Quarto\n\nBatteries included, shared syntax across output types and languages\nChoose your own editor and your preferred data science language\nRMarkdown still maintained, but majority of new features built into Quarto\n\nFollow @quarto_pub or me @thomas_mock on Twitter to stay up to date!\n\nWebinar Slides: https://jthomasmock.github.io/quarto-2hr-webinar/\nFULL workshop materials: rstd.io/get-started-quarto\nWorkshop materials on RStudio Cloud:https://rstudio.cloud/content/4332583\n\n\nWeb resources\n\nQuarto.org for documentation or the Quarto FAQ\n“With Quarto Coming, is R Markdown Going Away? No.” - Yihui.org"
+  },
+  {
+    "objectID": "materials/04-static-documents.html#why-the-name-quarto1",
+    "href": "materials/04-static-documents.html#why-the-name-quarto1",
+    "title": "Get Started with Quarto",
+    "section": "Why the name “Quarto”?1",
+    "text": "Why the name “Quarto”?1\n\n\n\n\n\n\n\n\n\n\njthomasmock.github.io/quarto-r-medicine/\n\nWhy Quarto? We wanted to use a name that had meaning in the history of publishing and landed on Quarto, which is the format of a book or pamphlet produced from full sheets printed with eight pages of text, four to a side, then folded twice to produce four leaves. The earliest known European printed book is a Quarto, the Sibyllenbuch, believed to have been printed by Johannes Gutenberg in 1452–53."
+  },
+  {
+    "objectID": "materials/04-static-documents.html#journal-articles",
+    "href": "materials/04-static-documents.html#journal-articles",
+    "title": "Get Started with Quarto",
+    "section": "Journal Articles",
+    "text": "Journal Articles\nhttps://quarto.org/docs/journals/\n\nThe Quarto team has developed several Journal formats and made them available within the quarto-journals GitHub organization. These formats include:\n\nACM\n\nPLOS\n\nElsevier\n\nACS\n\nJSS\n\nMany more formats will be added over time and we welcome proposals from the community for contributed formats (please post an issue at https://github.com/quarto-journals/article-format-template/issues if you are interested in contributing a format)."
   }
 ]
